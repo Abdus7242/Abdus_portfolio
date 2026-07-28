@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdus Samad Akhtar Shaikh | MBA Finance & IT</title>
+  <meta name="description" content="MBA candidate in Finance & Information Technology with hands-on experience in accounting, GST compliance, SAP FICO, Tally Prime, and financial analytics. Based in Belagavi, Karnataka.">
+  <meta name="keywords" content="Abdus Samad Shaikh, MBA Finance, SAP FICO, Tally Prime, GST Compliance, Financial Analyst, Belagavi, Accounting, Tax Compliance">
+  <meta name="author" content="Abdus Samad Akhtar Shaikh">
+  <meta property="og:title" content="Abdus Samad Akhtar Shaikh | MBA Finance & IT">
+  <meta property="og:description" content="Finance professional combining accounting knowledge, compliance exposure, and technology-driven decision-making.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_IN">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Abdus Samad Akhtar Shaikh | MBA Finance & IT">
+  <meta name="twitter:description" content="Finance professional combining accounting knowledge, compliance exposure, and technology-driven decision-making.">
+  <meta name="robots" content="index, follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    :root {
+      --bg: #0f0f11;
+      --surface: #18181b;
+      --surface-light: #1f1f23;
+      --fg: #f4f4f5;
+      --muted: #a1a1aa;
+      --muted-dark: #71717a;
+      --accent: #c9a96e;
+      --accent-hover: #b8985e;
+      --border: rgba(255,255,255,0.08);
+    }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+    body { font-family: 'Inter', system-ui, sans-serif; background: var(--bg); color: var(--fg); overflow-x: hidden; line-height: 1.6; }
+    ::selection { background: rgba(201,169,110,0.3); color: var(--fg); }
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: #3f3f46; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: #52525b; }
+
+    .grain { position: fixed; top: -50%; left: -50%; width: 200%; height: 200%; pointer-events: none; z-index: 9999; opacity: 0.025; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); animation: grain 8s steps(10) infinite; }
+    @keyframes grain { 0%,100% { transform: translate(0,0); } 10% { transform: translate(-5%,-10%); } 20% { transform: translate(-15%,5%); } 30% { transform: translate(7%,-25%); } 40% { transform: translate(-5%,25%); } 50% { transform: translate(-15%,10%); } 60% { transform: translate(15%,0%); } 70% { transform: translate(0%,15%); } 80% { transform: translate(3%,35%); } 90% { transform: translate(-10%,10%); } }
+
+    .text-gradient { background: linear-gradient(135deg, var(--fg) 0%, var(--accent) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .section-pad { padding-left: 1.5rem; padding-right: 1.5rem; }
+    @media (min-width: 640px) { .section-pad { padding-left: 2rem; padding-right: 2rem; } }
+    @media (min-width: 1024px) { .section-pad { padding-left: 4rem; padding-right: 4rem; } }
+    @media (min-width: 1280px) { .section-pad { padding-left: 6rem; padding-right: 6rem; } }
+    .container { max-width: 80rem; margin: 0 auto; }
+
+    header { position: fixed; top: 0; left: 0; right: 0; z-index: 50; transition: all 0.5s cubic-bezier(0.4,0,0.2,1); }
+    header.scrolled { background: rgba(15,15,17,0.85); backdrop-filter: blur(20px) saturate(1.2); border-bottom: 1px solid var(--border); box-shadow: 0 10px 40px -10px rgba(0,0,0,0.3); }
+    .header-inner { display: flex; align-items: center; justify-content: space-between; height: 4rem; }
+    @media (min-width: 1024px) { .header-inner { height: 5rem; } }
+    .brand { display: flex; flex-direction: column; text-decoration: none; }
+    .brand-name { font-size: 0.875rem; font-weight: 600; letter-spacing: -0.02em; color: var(--fg); }
+    @media (min-width: 1024px) { .brand-name { font-size: 1rem; } }
+    .brand-tag { font-family: 'Playfair Display', Georgia, serif; font-size: 0.65rem; font-style: italic; color: var(--muted); letter-spacing: 0.05em; }
+    @media (min-width: 1024px) { .brand-tag { font-size: 0.75rem; } }
+
+    .nav-desktop { display: none; }
+    @media (min-width: 1024px) { .nav-desktop { display: flex; align-items: center; gap: 0.25rem; } }
+    .nav-desktop a { padding: 0.5rem 0.75rem; font-size: 0.7rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); text-decoration: none; position: relative; transition: color 0.3s; }
+    .nav-desktop a::after { content: ''; position: absolute; bottom: 2px; left: 0.75rem; right: 0.75rem; height: 1px; background: var(--accent); transform: scaleX(0); transform-origin: left; transition: transform 0.3s ease; }
+    .nav-desktop a:hover { color: var(--fg); }
+    .nav-desktop a:hover::after { transform: scaleX(1); }
+    .nav-desktop a.active { color: var(--accent); }
+
+    .btn { display: inline-flex; align-items: center; gap: 0.375rem; padding: 0.5rem 1.25rem; border-radius: 0.5rem; font-size: 0.8rem; font-weight: 500; text-decoration: none; transition: all 0.3s ease; cursor: pointer; border: none; font-family: inherit; }
+    .btn-primary { background: var(--accent); color: var(--bg); box-shadow: 0 4px 20px -4px rgba(201,169,110,0.3); }
+    .btn-primary:hover { background: var(--accent-hover); transform: translateY(-1px); }
+    .btn-outline { background: transparent; color: var(--fg); border: 1px solid var(--border); }
+    .btn-outline:hover { border-color: rgba(201,169,110,0.4); background: var(--surface-light); }
+    .btn-sm { padding: 0.375rem 1rem; font-size: 0.75rem; }
+
+    .menu-toggle { display: flex; padding: 0.5rem; background: none; border: none; color: var(--fg); cursor: pointer; }
+    @media (min-width: 1024px) { .menu-toggle { display: none; } }
+
+    .mobile-nav { position: fixed; inset: 0; z-index: 40; background: rgba(15,15,17,0.97); backdrop-filter: blur(20px); padding-top: 5rem; display: none; flex-direction: column; align-items: center; gap: 0.5rem; }
+    .mobile-nav.open { display: flex; }
+    .mobile-nav a { padding: 0.75rem; font-size: 1.125rem; font-weight: 500; color: var(--fg); text-decoration: none; opacity: 0; transform: translateY(10px); animation: fadeUpItem 0.4s forwards; }
+    .mobile-nav a:nth-child(1) { animation-delay: 0.05s; } .mobile-nav a:nth-child(2) { animation-delay: 0.1s; } .mobile-nav a:nth-child(3) { animation-delay: 0.15s; } .mobile-nav a:nth-child(4) { animation-delay: 0.2s; } .mobile-nav a:nth-child(5) { animation-delay: 0.25s; } .mobile-nav a:nth-child(6) { animation-delay: 0.3s; } .mobile-nav a:nth-child(7) { animation-delay: 0.35s; }
+    @keyframes fadeUpItem { to { opacity: 1; transform: translateY(0); } }
+
+    .hero { min-height: 100vh; display: flex; align-items: center; padding-top: 5rem; position: relative; overflow: hidden; }
+    .hero-glow { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(ellipse 60% 50% at 70% 40%, rgba(201,169,110,0.06) 0%, transparent 70%); }
+    .hero-grid { display: grid; gap: 3rem; align-items: center; }
+    @media (min-width: 1024px) { .hero-grid { grid-template-columns: 1fr 1fr; gap: 4rem; } }
+
+    .badge { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.375rem 0.875rem; border-radius: 9999px; font-size: 0.65rem; font-weight: 500; letter-spacing: 0.15em; text-transform: uppercase; background: rgba(201,169,110,0.1); color: var(--accent); border: 1px solid rgba(201,169,110,0.2); }
+
+    h1 { font-family: 'Playfair Display', Georgia, serif; font-size: 2.5rem; font-weight: 500; line-height: 1.1; letter-spacing: -0.02em; }
+    @media (min-width: 640px) { h1 { font-size: 3.5rem; } } @media (min-width: 1024px) { h1 { font-size: 4.5rem; } } @media (min-width: 1280px) { h1 { font-size: 5rem; } }
+
+    .hero-desc { color: var(--muted); font-size: 1rem; line-height: 1.7; max-width: 32rem; margin: 1.5rem 0 2.5rem; }
+    @media (min-width: 1024px) { .hero-desc { font-size: 1.125rem; } }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 3rem; }
+
+    .stat-row { display: flex; flex-wrap: wrap; gap: 2rem; }
+    @media (min-width: 1024px) { .stat-row { gap: 3rem; } }
+    .stat-val { font-family: 'Playfair Display', Georgia, serif; font-size: 1.75rem; font-weight: 500; color: var(--fg); }
+    @media (min-width: 1024px) { .stat-val { font-size: 2.25rem; } }
+    .stat-label { font-size: 0.65rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; margin-top: 0.25rem; }
+
+    .hero-img-wrap { position: relative; display: flex; justify-content: center; }
+    @media (min-width: 1024px) { .hero-img-wrap { justify-content: flex-end; } }
+    .hero-img-box { position: relative; width: 16rem; height: 16rem; border-radius: 1rem; overflow: hidden; border: 1px solid var(--border); box-shadow: 0 25px 60px -15px rgba(0,0,0,0.5); }
+    @media (min-width: 640px) { .hero-img-box { width: 20rem; height: 20rem; } } @media (min-width: 1024px) { .hero-img-box { width: 24rem; height: 24rem; } }
+    .hero-img-box img { width: 100%; height: 100%; object-fit: cover; }
+    .hero-img-box::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, rgba(15,15,17,0.4) 0%, transparent 50%); }
+    .deco-br { position: absolute; bottom: -0.75rem; right: -0.75rem; width: 6rem; height: 6rem; border: 1px solid rgba(201,169,110,0.3); border-radius: 0.5rem; pointer-events: none; }
+    .deco-tl { position: absolute; top: -0.75rem; left: -0.75rem; width: 4rem; height: 4rem; border: 1px solid rgba(201,169,110,0.2); border-radius: 0.5rem; pointer-events: none; }
+    .img-glow { position: absolute; inset: -1rem; background: radial-gradient(circle, rgba(201,169,110,0.15) 0%, transparent 70%); filter: blur(30px); pointer-events: none; z-index: -1; }
+
+    .scroll-hint { position: absolute; bottom: 2rem; left: 50%; transform: translateX(-50%); display: none; flex-direction: column; align-items: center; gap: 0.5rem; }
+    @media (min-width: 1024px) { .scroll-hint { display: flex; } }
+    .scroll-hint span { font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--muted-dark); }
+    .scroll-hint i { animation: bounce 1.5s infinite; }
+    @keyframes bounce { 0%,100% { transform: translateY(0); } 50% { transform: translateY(6px); } }
+
+    section { padding-top: 6rem; padding-bottom: 6rem; position: relative; }
+    @media (min-width: 1024px) { section { padding-top: 8rem; padding-bottom: 8rem; } }
+
+    .section-label { font-size: 0.7rem; font-weight: 500; letter-spacing: 0.15em; text-transform: uppercase; color: var(--accent); margin-bottom: 1rem; display: block; }
+    h2 { font-family: 'Playfair Display', Georgia, serif; font-size: 1.875rem; font-weight: 500; line-height: 1.2; margin-bottom: 1rem; }
+    @media (min-width: 1024px) { h2 { font-size: 2.5rem; } }
+    .section-sub { color: var(--muted); max-width: 42rem; margin-bottom: 4rem; line-height: 1.7; }
+    .bg-surface { background: rgba(24,24,27,0.5); }
+
+    .reveal { opacity: 0; transform: translateY(32px); transition: all 0.7s cubic-bezier(0.25,0.1,0.25,1); }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    .card { padding: 1.5rem; border-radius: 0.75rem; background: var(--surface); border: 1px solid var(--border); transition: all 0.4s cubic-bezier(0.4,0,0.2,1); }
+    @media (min-width: 640px) { .card { padding: 2rem; } }
+    .card:hover { transform: translateY(-4px); border-color: rgba(201,169,110,0.25); box-shadow: 0 20px 40px -15px rgba(0,0,0,0.4), 0 0 30px -10px rgba(201,169,110,0.06); }
+
+    .card-icon { width: 2.5rem; height: 2.5rem; border-radius: 0.5rem; background: rgba(201,169,110,0.1); display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; color: var(--accent); transition: background 0.3s; }
+    .card:hover .card-icon { background: rgba(201,169,110,0.18); }
+    .card-title { font-size: 0.875rem; font-weight: 600; color: var(--fg); margin-bottom: 0.5rem; }
+    .card-text { font-size: 0.875rem; color: var(--muted); line-height: 1.6; }
+
+    .exp-header { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem; }
+    .exp-role { font-size: 1.125rem; font-weight: 600; color: var(--fg); }
+    .exp-badge { padding: 0.25rem 0.625rem; border-radius: 9999px; font-size: 0.6rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; background: rgba(201,169,110,0.1); color: var(--accent); border: 1px solid rgba(201,169,110,0.2); }
+    .exp-meta { display: flex; flex-wrap: wrap; gap: 1rem; font-size: 0.8rem; color: var(--muted); margin-bottom: 1rem; }
+    .exp-meta span { display: inline-flex; align-items: center; gap: 0.375rem; }
+    .exp-list { list-style: none; }
+    .exp-list li { position: relative; padding-left: 1.25rem; margin-bottom: 0.625rem; font-size: 0.875rem; color: rgba(161,161,170,0.9); line-height: 1.6; }
+    .exp-list li::before { content: ''; position: absolute; left: 0; top: 0.5rem; width: 5px; height: 5px; border-radius: 50%; background: rgba(201,169,110,0.6); }
+    .tag-row { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+    .tag { padding: 0.25rem 0.625rem; border-radius: 0.375rem; font-size: 0.7rem; font-weight: 500; background: var(--bg); border: 1px solid var(--border); color: var(--muted); }
+
+    .skill-cat { padding: 1.5rem; border-radius: 0.75rem; background: var(--surface); border: 1px solid var(--border); }
+    @media (min-width: 640px) { .skill-cat { padding: 2rem; } }
+    .skill-cat-title { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--fg); margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.75rem; }
+    .skill-cat-title::before { content: ''; display: block; width: 1.5rem; height: 1px; background: var(--accent); }
+    .skill-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .skill-pill { padding: 0.5rem 1rem; border-radius: 9999px; font-size: 0.8rem; font-weight: 500; background: var(--surface-light); border: 1px solid var(--border); color: rgba(244,244,245,0.9); transition: all 0.3s; cursor: default; }
+    .skill-pill:hover { border-color: rgba(201,169,110,0.35); background: rgba(31,31,35,0.8); transform: scale(1.03); }
+
+    .timeline { position: relative; }
+    .timeline-line { position: absolute; left: 1rem; top: 0; bottom: 0; width: 1px; background: var(--border); display: none; }
+    @media (min-width: 768px) { .timeline-line { display: block; } }
+    .timeline-item { position: relative; }
+    @media (min-width: 768px) { .timeline-item { padding-left: 3.5rem; } }
+    .timeline-dot { position: absolute; left: 0.625rem; top: 1.75rem; width: 0.75rem; height: 0.75rem; border-radius: 50%; background: var(--surface); border: 2px solid var(--accent); display: none; }
+    @media (min-width: 768px) { .timeline-dot { display: block; } }
+    .timeline-dot::after { content: ''; position: absolute; inset: 2px; border-radius: 50%; background: var(--accent); }
+
+    .cert-card { display: flex; flex-direction: column; }
+    .cert-top { display: flex; align-items: start; justify-content: space-between; margin-bottom: 1rem; }
+    .cert-core { padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.6rem; font-weight: 500; background: rgba(201,169,110,0.1); color: var(--accent); border: 1px solid rgba(201,169,110,0.2); }
+    .cert-title { font-size: 0.9rem; font-weight: 600; color: var(--fg); line-height: 1.4; margin-bottom: 0.75rem; }
+    .cert-bottom { margin-top: auto; display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); }
+
+    .proj-grid { display: grid; gap: 1.5rem; }
+    @media (min-width: 768px) { .proj-grid { grid-template-columns: repeat(3, 1fr); } }
+    .proj-label { font-size: 0.6rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted-dark); margin-bottom: 0.5rem; }
+    .proj-text { font-size: 0.8rem; color: var(--muted); line-height: 1.6; }
+    .proj-tools { display: flex; flex-wrap: wrap; gap: 0.375rem; margin-top: 0.75rem; }
+    .proj-tool { padding: 0.2rem 0.5rem; border-radius: 0.25rem; font-size: 0.65rem; background: var(--bg); border: 1px solid var(--border); color: var(--muted); }
+
+    .contact-grid { display: grid; gap: 3rem; }
+    @media (min-width: 1024px) { .contact-grid { grid-template-columns: 2fr 3fr; gap: 4rem; } }
+    .contact-item { display: flex; align-items: start; gap: 1rem; }
+    .contact-icon { width: 2.5rem; height: 2.5rem; border-radius: 0.5rem; background: rgba(201,169,110,0.1); display: flex; align-items: center; justify-content: center; color: var(--accent); flex-shrink: 0; }
+    .contact-label { font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted-dark); margin-bottom: 0.25rem; }
+    .contact-val { font-size: 0.875rem; color: var(--fg); text-decoration: none; transition: color 0.3s; }
+    .contact-val:hover { color: var(--accent); }
+    .contact-note { padding: 1.25rem; border-radius: 0.75rem; background: var(--surface); border: 1px solid var(--border); margin-top: 1.5rem; }
+    .contact-note p { font-size: 0.8rem; color: var(--muted); line-height: 1.6; }
+
+    .form-input { width: 100%; padding: 0.75rem 1rem; border-radius: 0.5rem; background: var(--surface); border: 1px solid var(--border); color: var(--fg); font-family: inherit; font-size: 0.875rem; transition: all 0.3s; }
+    .form-input::placeholder { color: var(--muted-dark); }
+    .form-input:focus { outline: none; border-color: rgba(201,169,110,0.4); box-shadow: 0 0 0 3px rgba(201,169,110,0.08); }
+    .form-label { display: block; font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted-dark); margin-bottom: 0.5rem; }
+    .form-row { display: grid; gap: 1.25rem; }
+    @media (min-width: 640px) { .form-row { grid-template-columns: 1fr 1fr; } }
+
+    footer { padding: 3rem 0; border-top: 1px solid var(--border); background: rgba(24,24,27,0.3); }
+    .footer-inner { display: flex; flex-direction: column; align-items: center; gap: 1.5rem; }
+    @media (min-width: 768px) { .footer-inner { flex-direction: row; justify-content: space-between; } }
+    .footer-social { display: flex; gap: 0.75rem; }
+    .footer-social a { width: 2.25rem; height: 2.25rem; border-radius: 0.5rem; background: var(--surface); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; color: var(--muted); text-decoration: none; transition: all 0.3s; }
+    .footer-social a:hover { color: var(--accent); border-color: rgba(201,169,110,0.3); }
+
+    .grid-2 { display: grid; gap: 1.5rem; }
+    @media (min-width: 768px) { .grid-2 { grid-template-columns: repeat(2, 1fr); } }
+    .grid-3 { display: grid; gap: 1.5rem; }
+    @media (min-width: 768px) { .grid-3 { grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 1024px) { .grid-3 { grid-template-columns: repeat(3, 1fr); } }
+    .grid-4 { display: grid; gap: 1.5rem; }
+    @media (min-width: 640px) { .grid-4 { grid-template-columns: repeat(2, 1fr); } }
+
+    .space-y-8 > * + * { margin-top: 2rem; }
+    .space-y-6 > * + * { margin-top: 1.5rem; }
+    .space-y-5 > * + * { margin-top: 1.25rem; }
+    .space-y-4 > * + * { margin-top: 1rem; }
+    .italic-accent { font-style: italic; color: var(--accent); }
+    .text-muted { color: var(--muted); }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border-width: 0; }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header id="header">
+    <div class="section-pad">
+      <div class="header-inner container">
+        <a href="#" class="brand">
+          <span class="brand-name">Abdus Samad Akhtar Shaikh</span>
+          <span class="brand-tag">Finance & IT</span>
+        </a>
+        <nav class="nav-desktop" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <a href="https://drive.google.com/file/d/1TVNYl_14wr6cU0HF96GlsfiCTsQIjAlo/view?usp=drive_link" download="Abdus_Resume_2026">Resume</a>
+        </nav>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+          <i data-lucide="menu" id="menuIconOpen" style="width:20px;height:20px;"></i>
+          <i data-lucide="x" id="menuIconClose" style="width:20px;height:20px;display:none;"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+    <a href="#about" onclick="closeMenu()">About</a>
+    <a href="#experience" onclick="closeMenu()">Experience</a>
+    <a href="#skills" onclick="closeMenu()">Skills</a>
+    <a href="#education" onclick="closeMenu()">Education</a>
+    <a href="#certifications" onclick="closeMenu()">Certifications</a>
+    <a href="#projects" onclick="closeMenu()">Projects</a>
+    <a href="#contact" onclick="closeMenu()">Contact</a>
+    <a href="mailto:abdussamad212003@gmail.com" class="btn btn-primary" style="margin-top:1rem;" onclick="closeMenu()">
+      <i data-lucide="mail" style="width:14px;height:14px;"></i> Get in Touch
+    </a>
+  </nav>
+
+  <section class="hero section-pad">
+    <div class="hero-glow"></div>
+    <div class="container hero-grid">
+      <div class="reveal">
+        <div class="badge">MBA Finance & IT</div>
+        <h1 style="margin-top:1.5rem;">Finance with <span class="text-gradient italic">precision.</span><br>Analysis with <span class="text-gradient italic">purpose.</span></h1>
+        <p class="hero-desc">MBA candidate in Finance & Information Technology with hands-on experience in accounting, GST compliance, and banking operations. Proficient in SAP FICO, Tally Prime, Excel, Power BI, and Tableau — combining analytical rigour with technology-driven decision making.</p>
+        <div class="hero-actions">
+          <a href="#experience" class="btn btn-primary"><i data-lucide="briefcase" style="width:16px;height:16px;"></i> View Experience</a>
+          <a href="#contact" class="btn btn-outline"><i data-lucide="mail" style="width:16px;height:16px;"></i> Contact Me</a>
+        </div>
+        <div class="stat-row">
+          <div><div class="stat-val">8.74</div><div class="stat-label">MBA CGPA</div></div>
+          <div><div class="stat-val">3+</div><div class="stat-label">Internships</div></div>
+          <div><div class="stat-val">CMA</div><div class="stat-label">Foundation</div></div>
+          <div><div class="stat-val">SAP</div><div class="stat-label">FICO Certified</div></div>
+        </div>
+      </div>
+      <div class="hero-img-wrap reveal" style="transition-delay:0.2s;">
+        <div class="img-glow"></div>
+        <div class="hero-img-box">
+          <img src="photo.jpeg" alt="Abdus Samad Akhtar Shaikh — Finance & IT Professional">
+        </div>
+        <div class="deco-br"></div>
+        <div class="deco-tl"></div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <i data-lucide="chevron-down" style="width:16px;height:16px;color:var(--muted-dark);"></i>
+    </div>
+  </section>
+
+  <section id="about" class="section-pad">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-label">About</span>
+        <div class="grid-2" style="gap:3rem;align-items:start;">
+          <div>
+            <h2>A finance professional built on <span class="italic-accent">accounting fundamentals</span> and <span class="italic-accent">systems thinking</span>.</h2>
+          </div>
+          <div class="space-y-6" style="color:var(--muted);line-height:1.7;">
+            <p>I am an MBA candidate in Finance & Information Technology at KLS Gogte Institute of Technology, Belagavi, with a strong academic foundation (CGPA 8.74/10) and practical experience across industrial accounting, GST compliance, and cooperative banking operations.</p>
+            <p>My professional journey includes three completed internships where I processed accounting vouchers in Tally Prime, verified GST-inclusive entries, supported internal audit reviews, and evaluated SME loan applications. I am CMA Foundation qualified and certified as a SAP FICO Power User.</p>
+            <p>I combine analytical rigour with technology fluency — comfortable navigating ERP systems, building financial models in Excel, and creating visual reports in Power BI and Tableau. I am seeking an entry-level role in financial analysis, accounting, tax compliance, audit, or ERP-related finance where precision and technology create measurable value.</p>
+          </div>
+        </div>
+      </div>
+      <div class="grid-4" style="margin-top:4rem;">
+        <div class="card reveal" style="transition-delay:0s;">
+          <div class="card-icon"><i data-lucide="file-text" style="width:20px;height:20px;"></i></div>
+          <div class="card-title">Accounting & Compliance</div>
+          <div class="card-text">Practical exposure to GST filing, TDS documentation, and tax verification across manufacturing and banking environments.</div>
+        </div>
+        <div class="card reveal" style="transition-delay:0.1s;">
+          <div class="card-icon"><i data-lucide="shield-check" style="width:20px;height:20px;"></i></div>
+          <div class="card-title">Audit & Controls</div>
+          <div class="card-text">Experience reviewing financial records, verifying ledger entries, and supporting internal audit activities with precision.</div>
+        </div>
+        <div class="card reveal" style="transition-delay:0.2s;">
+          <div class="card-icon"><i data-lucide="bar-chart-3" style="width:20px;height:20px;"></i></div>
+          <div class="card-title">Analytics & Reporting</div>
+          <div class="card-text">Proficient in Excel financial modelling, Power BI dashboards, and data-driven decision support for stakeholders.</div>
+        </div>
+        <div class="card reveal" style="transition-delay:0.3s;">
+          <div class="card-icon"><i data-lucide="cpu" style="width:20px;height:20px;"></i></div>
+          <div class="card-title">ERP & Systems</div>
+          <div class="card-text">Certified SAP FICO power user with hands-on Tally Prime experience for voucher processing and ledger maintenance.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section-pad bg-surface">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-label">Experience</span>
+        <h2>Practical exposure, <span style="font-style:italic;color:var(--muted);">measurable discipline.</span></h2>
+        <p class="section-sub">Three internships across industrial accounting and cooperative banking have shaped my understanding of financial documentation, compliance workflows, and operational controls.</p>
+      </div>
+      <div class="space-y-8">
+        <div class="card reveal">
+          <div class="exp-header"><span class="exp-role">Finance Intern</span><span class="exp-badge">Internship</span></div>
+          <div class="exp-meta">
+            <span><i data-lucide="building-2" style="width:14px;height:14px;"></i> Agarwal Industrial Corporation Limited</span>
+            <span><i data-lucide="map-pin" style="width:14px;height:14px;"></i> Belagavi, Karnataka</span>
+            <span><i data-lucide="calendar" style="width:14px;height:14px;"></i> May 2026 – June 2026</span>
+          </div>
+          <ul class="exp-list">
+            <li>Gained practical exposure to GST compliance including GSTR-1, TDS, and tax document verification — covering Form 26AS and AIS.</li>
+            <li>Assisted with internal audit activities by reviewing financial records and compiling transaction-level data in Microsoft Excel.</li>
+            <li>Recorded and verified accounting entries, purchase invoices, and supporting documents in Tally Prime, ensuring accurate ledger maintenance.</li>
+          </ul>
+          <div class="tag-row"><span class="tag">GST</span><span class="tag">TDS</span><span class="tag">Tally Prime</span><span class="tag">Excel</span><span class="tag">Internal Audit</span></div>
+        </div>
+        <div class="card reveal" style="transition-delay:0.1s;">
+          <div class="exp-header"><span class="exp-role">Finance & Accounts Intern</span><span class="exp-badge">Internship</span></div>
+          <div class="exp-meta">
+            <span><i data-lucide="building-2" style="width:14px;height:14px;"></i> Agarwal Industrial Corporation Limited</span>
+            <span><i data-lucide="map-pin" style="width:14px;height:14px;"></i> Belagavi, Karnataka</span>
+            <span><i data-lucide="calendar" style="width:14px;height:14px;"></i> September 2025 – October 2025</span>
+          </div>
+          <ul class="exp-list">
+            <li>Processed 20+ accounting vouchers — sales, purchases, and debit/credit notes — in Tally Prime with zero data-entry errors.</li>
+            <li>Recorded GST-inclusive vouchers by correctly allocating CGST, SGST, and IGST components across purchase and sales entries.</li>
+            <li>Built working knowledge of indirect tax treatment in a manufacturing setup through hands-on voucher processing.</li>
+          </ul>
+          <div class="tag-row"><span class="tag">Tally Prime</span><span class="tag">GST</span><span class="tag">Voucher Processing</span><span class="tag">Double-Entry Bookkeeping</span></div>
+        </div>
+        <div class="card reveal" style="transition-delay:0.2s;">
+          <div class="exp-header"><span class="exp-role">Banking Intern</span><span class="exp-badge">Internship</span></div>
+          <div class="exp-meta">
+            <span><i data-lucide="building-2" style="width:14px;height:14px;"></i> Shri D.T. Patil Co-operative Bank</span>
+            <span><i data-lucide="map-pin" style="width:14px;height:14px;"></i> Belagavi, Karnataka</span>
+            <span><i data-lucide="calendar" style="width:14px;height:14px;"></i> April 2024 – May 2024</span>
+          </div>
+          <ul class="exp-list">
+            <li>Supported credit risk evaluation for 5+ SME loan applications by reviewing financial profiles, repayment histories, and collateral documentation.</li>
+            <li>Processed 15+ daily customer transactions with zero errors by adhering to internal control and cash management procedures.</li>
+            <li>Observed end-of-day cash reconciliation across savings accounts and recurring deposits, gaining working knowledge of core banking operations.</li>
+          </ul>
+          <div class="tag-row"><span class="tag">Credit Appraisal</span><span class="tag">Cash Management</span><span class="tag">Bank Reconciliation</span><span class="tag">SME Lending</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section-pad">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-label">Skills</span>
+        <h2>Tools and competencies, <span style="font-style:italic;color:var(--muted);">curated with intent.</span></h2>
+        <p class="section-sub">A focused set of technical and professional capabilities developed through academic training, certification programs, and hands-on internship work.</p>
+      </div>
+      <div class="grid-2" style="gap:1.5rem;">
+        <div class="skill-cat reveal">
+          <div class="skill-cat-title">Accounting & Compliance</div>
+          <div class="skill-pills">
+            <span class="skill-pill">GST</span><span class="skill-pill">TDS</span><span class="skill-pill">Income Tax e-filing</span>
+            <span class="skill-pill">ESIC</span><span class="skill-pill">EPFO</span><span class="skill-pill">GAAP / IFRS</span>
+            <span class="skill-pill">Cost Accounting</span><span class="skill-pill">Accounting Fundamentals</span>
+          </div>
+        </div>
+        <div class="skill-cat reveal" style="transition-delay:0.1s;">
+          <div class="skill-cat-title">Finance Systems</div>
+          <div class="skill-pills">
+            <span class="skill-pill">SAP FICO</span><span class="skill-pill">Tally Prime</span><span class="skill-pill">ERP Systems</span>
+          </div>
+        </div>
+        <div class="skill-cat reveal" style="transition-delay:0.2s;">
+          <div class="skill-cat-title">Analytics & Reporting</div>
+          <div class="skill-pills">
+            <span class="skill-pill">Microsoft Excel</span><span class="skill-pill">Power BI</span><span class="skill-pill">Tableau</span>
+            <span class="skill-pill">IBM SPSS</span><span class="skill-pill">Financial Modelling</span><span class="skill-pill">Pivot Tables</span>
+            <span class="skill-pill">VLOOKUP</span>
+          </div>
+        </div>
+        <div class="skill-cat reveal" style="transition-delay:0.3s;">
+          <div class="skill-cat-title">Business & Professional</div>
+          <div class="skill-pills">
+            <span class="skill-pill">Financial Analysis</span><span class="skill-pill">Business Communication</span>
+            <span class="skill-pill">Financial Literacy</span><span class="skill-pill">Customer Service</span>
+            <span class="skill-pill">Microsoft Copilot</span><span class="skill-pill">Prompt Engineering</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section-pad bg-surface">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-label">Education</span>
+        <h2>Strong academic grounding, <span style="font-style:italic;color:var(--muted);">consistent performance.</span></h2>
+        <p class="section-sub">A progressive academic path from commerce fundamentals to advanced finance and technology management, supported by professional certification.</p>
+      </div>
+      <div class="timeline space-y-8">
+        <div class="timeline-line"></div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="card">
+            <div style="display:flex;flex-wrap:wrap;align-items:center;gap:0.75rem;margin-bottom:0.5rem;">
+              <h3 style="font-size:1rem;font-weight:600;color:var(--fg);">Master of Business Administration — Finance & Information Technology</h3>
+              <span class="exp-badge">CGPA: 8.74 / 10</span>
+            </div>
+            <p style="font-size:0.875rem;color:var(--muted);margin-bottom:0.25rem;">KLS Gogte Institute of Technology, Belagavi</p>
+            <div style="display:flex;align-items:center;gap:0.375rem;font-size:0.75rem;color:var(--muted-dark);"><i data-lucide="calendar" style="width:12px;height:12px;"></i> November 2024 – July 2026</div>
+          </div>
+        </div>
+        <div class="timeline-item reveal" style="transition-delay:0.1s;">
+          <div class="timeline-dot"></div>
+          <div class="card">
+            <div style="display:flex;flex-wrap:wrap;align-items:center;gap:0.75rem;margin-bottom:0.5rem;">
+              <h3 style="font-size:1rem;font-weight:600;color:var(--fg);">Bachelor of Commerce — Banking & Insurance</h3>
+              <span class="exp-badge">CGPA: 8.68 / 10</span>
+            </div>
+            <p style="font-size:0.875rem;color:var(--muted);margin-bottom:0.25rem;">KLE Society's Lingaraj College, Belagavi</p>
+            <div style="display:flex;align-items:center;gap:0.375rem;font-size:0.75rem;color:var(--muted-dark);"><i data-lucide="calendar" style="width:12px;height:12px;"></i> November 2022 – September 2024</div>
+          </div>
+        </div>
+        <div class="timeline-item reveal" style="transition-delay:0.2s;">
+          <div class="timeline-dot"></div>
+          <div class="card">
+            <div style="display:flex;flex-wrap:wrap;align-items:center;gap:0.75rem;margin-bottom:0.5rem;">
+              <h3 style="font-size:1rem;font-weight:600;color:var(--fg);">Foundation — Cost Management Accounting (CMA)</h3>
+              <span class="exp-badge">Completed</span>
+            </div>
+            <p style="font-size:0.875rem;color:var(--muted);margin-bottom:0.25rem;">Institute of Cost Accountants of India (ICMAI)</p>
+            <div style="display:flex;align-items:center;gap:0.375rem;font-size:0.75rem;color:var(--muted-dark);"><i data-lucide="calendar" style="width:12px;height:12px;"></i> December 2021 – June 2022</div>
+          </div>
+        </div>
+        <div class="timeline-item reveal" style="transition-delay:0.3s;">
+          <div class="timeline-dot"></div>
+          <div class="card">
+            <h3 style="font-size:1rem;font-weight:600;color:var(--fg);margin-bottom:0.5rem;">Pre-University — Commerce</h3>
+            <p style="font-size:0.875rem;color:var(--muted);margin-bottom:0.25rem;">KLE Independent PU College</p>
+            <div style="display:flex;align-items:center;gap:0.375rem;font-size:0.75rem;color:var(--muted-dark);"><i data-lucide="calendar" style="width:12px;height:12px;"></i> 2020 – 2021</div>
+          </div>
+        </div>
+        <div class="timeline-item reveal" style="transition-delay:0.4s;">
+          <div class="timeline-dot"></div>
+          <div class="card">
+            <h3 style="font-size:1rem;font-weight:600;color:var(--fg);margin-bottom:0.5rem;">Secondary School</h3>
+            <p style="font-size:0.875rem;color:var(--muted);margin-bottom:0.25rem;">Seventh Day Adventist Higher Secondary School</p>
+            <div style="display:flex;align-items:center;gap:0.375rem;font-size:0.75rem;color:var(--muted-dark);"><i data-lucide="calendar" style="width:12px;height:12px;"></i> Completed</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications" class="section-pad">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-label">Certifications</span>
+        <h2>Credentials that validate <span style="font-style:italic;color:var(--muted);">technical depth.</span></h2>
+        <p class="section-sub">Select professional certifications demonstrating proficiency in ERP systems, financial management, regulatory compliance, and productivity tools.</p>
+      </div>
+      <div class="grid-3">
+        <div class="card cert-card reveal">
+          <div class="cert-top"><div class="card-icon"><i data-lucide="award" style="width:20px;height:20px;"></i></div><span class="cert-core">Core</span></div>
+          <div class="cert-title">SAP Finance & Controlling (FI-CO) Power User</div>
+          <div class="cert-bottom"><span>SAP</span><span>2025</span></div>
+        </div>
+        <div class="card cert-card reveal" style="transition-delay:0.05s;">
+          <div class="cert-top"><div class="card-icon"><i data-lucide="award" style="width:20px;height:20px;"></i></div><span class="cert-core">Core</span></div>
+          <div class="cert-title">Finance for Managers</div>
+          <div class="cert-bottom"><span>IESE Business School</span><span>2025</span></div>
+        </div>
+        <div class="card cert-card reveal" style="transition-delay:0.1s;">
+          <div class="cert-top"><div class="card-icon"><i data-lucide="award" style="width:20px;height:20px;"></i></div><span class="cert-core">Core</span></div>
+          <div class="cert-title">E-Filing Training: Income Tax, GST, TDS, ESIC, EPFO</div>
+          <div class="cert-bottom"><span>Professional Training</span><span>2025</span></div>
+        </div>
+        <div class="card cert-card reveal" style="transition-delay:0.15s;">
+          <div class="cert-top"><div class="card-icon"><i data-lucide="award" style="width:20px;height:20px;"></i></div></div>
+          <div class="cert-title">SEBI Investor Awareness Test (NISM)</div>
+          <div class="cert-bottom"><span>NISM</span><span>2025</span></div>
+        </div>
+        <div class="card cert-card reveal" style="transition-delay:0.2s;">
+          <div class="cert-top"><div class="card-icon"><i data-lucide="award" style="width:20px;height:20px;"></i></div></div>
+          <div class="cert-title">Microsoft Copilot for Productivity</div>
+          <div class="cert-bottom"><span>Microsoft</span><span>2025</span></div>
+        </div>
+        <div class="card cert-card reveal" style="transition-delay:0.25s;">
+          <div class="cert-top"><div class="card-icon"><i data-lucide="award" style="width:20px;height:20px;"></i></div></div>
+          <div class="cert-title">Management Consulting Skills for Managers & Leaders</div>
+          <div class="cert-bottom"><span>Professional Certification</span><span>2025</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section-pad bg-surface">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-label">Projects</span>
+        <h2>Applied learning, <span style="font-style:italic;color:var(--muted);">documented with rigour.</span></h2>
+        <p class="section-sub">Selected academic and internship projects demonstrating analytical thinking, systems understanding, and professional documentation standards.</p>
+      </div>
+      <div class="space-y-8">
+        <div class="card reveal">
+          <div style="display:flex;align-items:start;gap:1rem;margin-bottom:1.25rem;">
+            <div class="card-icon"><i data-lucide="folder-open" style="width:20px;height:20px;"></i></div>
+            <h3 style="font-size:1.125rem;font-weight:600;color:var(--fg);">Organisational Study — Agarwal Industrial Corporation</h3>
+          </div>
+          <div class="proj-grid">
+            <div><div class="proj-label">Objective</div><div class="proj-text">To understand the financial and operational structure of a manufacturing enterprise.</div></div>
+            <div><div class="proj-label">Role & Activities</div><div class="proj-text">Conducted a comprehensive review of accounting workflows, GST compliance procedures, and internal control mechanisms.</div></div>
+            <div><div class="proj-label">Tools & Outcome</div><div class="proj-text">Documented end-to-end financial processes and identified areas for improved documentation and ledger accuracy.</div><div class="proj-tools"><span class="proj-tool">Tally Prime</span><span class="proj-tool">Excel</span><span class="proj-tool">GST Portal</span></div></div>
+          </div>
+        </div>
+        <div class="card reveal" style="transition-delay:0.1s;">
+          <div style="display:flex;align-items:start;gap:1rem;margin-bottom:1.25rem;">
+            <div class="card-icon"><i data-lucide="folder-open" style="width:20px;height:20px;"></i></div>
+            <h3 style="font-size:1.125rem;font-weight:600;color:var(--fg);">Financial Analysis & Reporting Project</h3>
+          </div>
+          <div class="proj-grid">
+            <div><div class="proj-label">Objective</div><div class="proj-text">To build analytical skills through real-world financial data interpretation and reporting.</div></div>
+            <div><div class="proj-label">Role & Activities</div><div class="proj-text">Created financial models and summary reports using Excel Pivot Tables and Power BI dashboards for decision support.</div></div>
+            <div><div class="proj-label">Tools & Outcome</div><div class="proj-text">Developed proficiency in data visualization and structured financial reporting for stakeholder communication.</div><div class="proj-tools"><span class="proj-tool">Excel</span><span class="proj-tool">Power BI</span><span class="proj-tool">Financial Modelling</span></div></div>
+          </div>
+        </div>
+        <div class="card reveal" style="transition-delay:0.2s;">
+          <div style="display:flex;align-items:start;gap:1rem;margin-bottom:1.25rem;">
+            <div class="card-icon"><i data-lucide="folder-open" style="width:20px;height:20px;"></i></div>
+            <h3 style="font-size:1.125rem;font-weight:600;color:var(--fg);">Banking Operations Observation Study</h3>
+          </div>
+          <div class="proj-grid">
+            <div><div class="proj-label">Objective</div><div class="proj-text">To understand core banking operations, credit appraisal, and reconciliation workflows.</div></div>
+            <div><div class="proj-label">Role & Activities</div><div class="proj-text">Shadowed banking operations including cash management, loan documentation review, and end-of-day reconciliation.</div></div>
+            <div><div class="proj-label">Tools & Outcome</div><div class="proj-text">Gained practical understanding of SME lending criteria, risk assessment parameters, and operational controls.</div><div class="proj-tools"><span class="proj-tool">Core Banking</span><span class="proj-tool">Excel</span></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section-pad">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-label">Contact</span>
+        <h2>Let's discuss <span style="font-style:italic;color:var(--muted);">opportunities.</span></h2>
+        <p class="section-sub">I am currently seeking entry-level roles in financial analysis, accounting, tax compliance, audit, or ERP-related finance. If you have an opportunity or would like to connect, please reach out.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="reveal">
+          <div class="space-y-6">
+            <div class="contact-item">
+              <div class="contact-icon"><i data-lucide="mail" style="width:16px;height:16px;"></i></div>
+              <div><div class="contact-label">Email</div><a href="mailto:abdussamad212003@gmail.com" class="contact-val">abdussamad212003@gmail.com</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i data-lucide="phone" style="width:16px;height:16px;"></i></div>
+              <div><div class="contact-label">Phone</div><a href="tel:+918431717321" class="contact-val">+91 84317 17321</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i data-lucide="map-pin" style="width:16px;height:16px;"></i></div>
+              <div><div class="contact-label">Location</div><span class="contact-val">Belagavi, Karnataka, India</span></div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i data-lucide="linkedin" style="width:16px;height:16px;"></i></div>
+              <div><div class="contact-label">LinkedIn</div><a href="https://linkedin.com/in/abdussamad-shaikh" target="_blank" rel="noopener noreferrer" class="contact-val" style="display:inline-flex;align-items:center;gap:0.25rem;">linkedin.com/in/abdussamad-shaikh <i data-lucide="arrow-up-right" style="width:12px;height:12px;"></i></a></div>
+            </div>
+          </div>
+          <div class="contact-note">
+            <p><span style="color:var(--accent);font-weight:500;">Note:</span> All communications are treated with strict confidentiality. I aim to respond to all professional inquiries within 24–48 hours.</p>
+          </div>
+        </div>
+        <div class="reveal" style="transition-delay:0.2s;">
+          <form id="contactForm" action="mailto:abdussamad212003@gmail.com" method="post" enctype="text/plain" class="space-y-5">
+            <div class="form-row">
+              <div><label class="form-label" for="cname">Name <span style="color:var(--accent);">*</span></label><input type="text" id="cname" name="name" class="form-input" placeholder="Your name" required></div>
+              <div><label class="form-label" for="cemail">Email <span style="color:var(--accent);">*</span></label><input type="email" id="cemail" name="email" class="form-input" placeholder="your@email.com" required></div>
+            </div>
+            <div><label class="form-label" for="csubject">Subject</label><input type="text" id="csubject" name="subject" class="form-input" placeholder="What is this regarding?"></div>
+            <div><label class="form-label" for="cmessage">Message <span style="color:var(--accent);">*</span></label><textarea id="cmessage" name="message" rows="5" class="form-input" placeholder="Your message..." required style="resize:none;"></textarea></div>
+            <div style="display:flex;flex-wrap:wrap;align-items:center;gap:1rem;">
+              <button type="submit" class="btn btn-primary" id="submitBtn"><i data-lucide="send" style="width:14px;height:14px;"></i> Send Message</button>
+              <span id="formStatus" style="font-size:0.875rem;display:none;"></span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="section-pad">
+    <div class="container footer-inner">
+      <div style="text-align:center;">
+        <p style="font-size:0.875rem;font-weight:500;color:var(--fg);">Abdus Samad Akhtar Shaikh</p>
+        <p style="font-size:0.75rem;color:var(--muted);margin-top:0.25rem;">MBA Finance & IT &middot; Belagavi, Karnataka</p>
+      </div>
+      <div class="footer-social">
+        <a href="mailto:abdussamad212003@gmail.com" aria-label="Email"><i data-lucide="mail" style="width:16px;height:16px;"></i></a>
+        <a href="tel:+918431717321" aria-label="Phone"><i data-lucide="phone" style="width:16px;height:16px;"></i></a>
+        <a href="https://linkedin.com/in/abdussamad-shaikh" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i data-lucide="linkedin" style="width:16px;height:16px;"></i></a>
+      </div>
+      <p style="font-size:0.75rem;color:var(--muted-dark);">&copy; <span id="year"></span> All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    lucide.createIcons();
+
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => { header.classList.toggle('scrolled', window.scrollY > 40); });
+
+    const menuToggle = document.getElementById('menuToggle');
+    const mobileNav = document.getElementById('mobileNav');
+    const iconOpen = document.getElementById('menuIconOpen');
+    const iconClose = document.getElementById('menuIconClose');
+    function toggleMenu() {
+      const open = mobileNav.classList.toggle('open');
+      menuToggle.setAttribute('aria-expanded', open);
+      iconOpen.style.display = open ? 'none' : 'block';
+      iconClose.style.display = open ? 'block' : 'none';
+      document.body.style.overflow = open ? 'hidden' : '';
+    }
+    function closeMenu() { if (mobileNav.classList.contains('open')) toggleMenu(); }
+    menuToggle.addEventListener('click', toggleMenu);
+
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+    }, { threshold: 0.1, rootMargin: '-60px 0px' });
+    reveals.forEach(el => observer.observe(el));
+
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-desktop a');
+    const sectionObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navLinks.forEach(link => link.classList.toggle('active', link.getAttribute('href') === '#' + entry.target.id));
+        }
+      });
+    }, { rootMargin: '-40% 0px -60% 0px' });
+    sections.forEach(s => sectionObserver.observe(s));
+
+    const form = document.getElementById('contactForm');
+    const status = document.getElementById('formStatus');
+    form.addEventListener('submit', function(e) {
+      status.style.display = 'inline';
+      status.style.color = 'var(--accent)';
+      status.textContent = 'Opening your email client...';
+    });
+  </script>
+</body>
+</html>
